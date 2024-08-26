@@ -1,0 +1,1 @@
+!function(){const e=document.querySelector(".menu__btn"),n=document.querySelector(".header__menu-list");e.addEventListener("click",(()=>{n.classList.toggle("menu-open")}))}();
