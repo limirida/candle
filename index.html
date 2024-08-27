@@ -2,15 +2,14 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Modimal | ВебКадеми</title>
-	<link rel="stylesheet" href="./css/main.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Candle</title>
+    <link rel="stylesheet" href="./css/main.css" />
 
-	<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
-	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
-</head>
+    <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
 
 <body>
     <header class="header">
@@ -37,17 +36,72 @@
         <a href="tel:+4565789876" class="phone">+45 65 78 98 76</a>
     </div>
 </header>
-    <nav>
-        <ul>
-            <li><a href="././pages/inner.html">inner html</a>
-                
-            </li>
-            <li><a href="././pages/page1.html">pages1</a></li>
-        </ul>
-    </nav>
-        <img width="200" src="./img/photo-1.jpg" alt="342">
+    <main class="main">
+        <section class="top">
+    <div class="container top__inner">
+        <div class="top__content">
+            <h3 class="top__title title">
+                Создайте атмосферу уюта и гармонии!
+            </h3>
+            <p class="top__text">
+                Создайте особую атмосферу в своем доме с нашей экологически чистой и качественной продукцией из 100%
+                натурального соевого воска.</p>
+            <button class="button top__buy">Купить</button>
+        </div>
+        <picture class="top__img">
+            <source srcset="./img/top-s.png" media="(max-width:360px)">
+            <source srcset="./img/top-m.png" media="(max-width:480px)">
+            <img class="top__img-l" src="./img/top-l.png" alt="">
+        </picture>
+    </div>
+</section>
+        <section class="about">
+    <div class="container about__inner">
+        <div class="about__content">
+            <h2 class="about__title title">
+                Про нас
+            </h2>
+            <p class="about__text">Богдан ,создатель бренда, не всегда заинтересован в изготовлении разнообразных вещей на
+                дому. Он регулярно экспериментировал с разными материалами и инструментами, попробовав свои силы во
+                многих отраслях, включая изготовление свечей.
 
-   
+            </p>
+            <p class="about__text"> Сосовый воск изготавливается из соевых бобов, сращиваемых в Дании, и этот вид воска
+                является экологически чистым и безопасным для здоровья.</p>
+        </div>
+        <ul class="about__list">
+            <li class="about__item">
+                <picture class="about__item-img about__item-img--1">
+                    <source srcset="./img/about-1-xs.jpg" media="(max-width:360px)">
+                    <source srcset="./img/about-1-s.jpg" media="(max-width:480px)">
+                    <source srcset="./img/about-1-m.jpg" media="(max-width:768px)">
+                    <img src="./img/about-1.jpg" alt="">
+                </picture>
+                <p class="about__item-text">Наслаждайтесь моментом</p>
+            </li>
+            <li class="about__item">
+                <picture class="about__item-img about__item-img--2">
+                    <source srcset="./img/about-2-s.png" media="(max-width:480px)">
+                    <source srcset="./img/about-2-m.png" media="(max-width:768px)">
+                    <img src="./img/about-2.png" alt="">
+                </picture>
+                <p class="about__item-text">
+                    Создайте любимую атмосферу</p>
+            </li>
+            <li class="about__item">
+                <picture class="about__item-img about__item-img--3">
+                    <source srcset="./img/about-3-s.jpg" media="(max-width:480px)">
+                    <source srcset="./img/about-3-m.jpg" media="(max-width:768px)">
+                    <img src="./img/about-3.jpg" alt="">
+                </picture>
+                <p class="about__item-text">Изготовлены с любовью</p>
+            </li>
+        </ul>
+    </div>
+</section>
+    </main>
+
+
 
     <footer class="footer">
     <div class="container footer__inner">
